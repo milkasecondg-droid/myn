@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milkeso Mohammed | Portfolio</title>
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated Background Particles -->
+    <div class="particles" id="particles-js"></div>
+
+    <!-- Header & Navigation -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="#home" class="logo">Milkeso mohammed<span>.</span></a>
+            <div class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <nav>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+            
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="section">
+            <div class="container">
+                <div class="home-content">
+                    <!-- Editable Profile Picture -->
+                    <div class="profile-img-container">
+                        <img src="images/photo_2026-01-01_01-38-37.jpg" alt="Milkeso Mohammed" class="profile-img pulse">
+                        
+                    </div>
+                    <div class="home-text">
+                        <!-- Animated Typing Text -->
+                        <h1 class="typing-text">Hi, I'm <span class="highlight">Milkeso <br> Mohammed</span></h1>
+                        <h2 class="slide-in">Computer Science Student & Developer</h2>
+                        <p class="fade-in">Building impactful digital solutions while developing myself mentally and physically through discipline and passion.</p>
+                        <a href="#contact" class="btn glow">Get In Touch</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section dark-section">
+            <div class="container">
+                <h2 class="section-title"><span class="underline-anim">About Me</span></h2>
+                <div class="about-content">
+                    <p class="about-text fade-in-up">I am a third-year Computer Science student at Arsi University with a strong passion for web and mobile application development. I am highly motivated by self-improvement and continuous learning, which has led me to successfully complete the Udacity course on Fundamental Programming, strengthening my problem-solving and coding skills.</p>
+                    <p class="about-text fade-in-up">Alongside my academic journey, I am deeply interested in reading books that enhance personal growth and discipline, and I am actively working toward becoming a professional boxer, a goal that has taught me resilience, focus, and consistency.</p>
+                    <div class="interests fade-in-up">
+                        <div class="interest-item">
+                            <i class="fas fa-laptop-code"></i>
+                            <h4>Web & Mobile Dev</h4>
+                        </div>
+                        <div class="interest-item">
+                            <i class="fas fa-book"></i>
+                            <h4>Personal Growth</h4>
+                        </div>
+                        <div class="interest-item">
+                            <i class="fas fa-fist-raised"></i>
+                            <h4>Professional Boxing</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="section">
+            <div class="container">
+                <h2 class="section-title"><span class="underline-anim">My Gallery</span></h2>
+                <p class="section-subtitle">Visual highlights from my academic, technical, and personal journey.</p>
+                <!-- Editable Gallery -->
+                <div class="gallery-grid">
+                    <!-- Image 1 - Replace src and alt text -->
+                    <div class="gallery-item">
+                        <img src="images/photo_2026-01-01_01-40-49.jpg" alt="Coding Projects" class="gallery-img">
+                        <div class="gallery-caption">Coding Projects</div>
+                        
+                    </div>
+                   
+                    <div class="gallery-item">
+                       
+                         <img src="images/photo_2026-01-01_01-38-54.jpg" alt="Boxing " class="gallery-img">
+                        <div class="gallery-caption">boxing session</div>
+                    </div>
+                    <div class="gallery-item">
+                         <img src="images/photo_2026-01-01_01-59-32.jpg" alt="boxing session" class="gallery-img">
+                        <div class="gallery-caption">boxing session </div>
+                    </div>
+                    <div class="gallery-item">
+                         <img src="images/photo_2026-01-01_01-45-28.jpg" alt="Udacity Certification" class="gallery-img">
+                        <div class="gallery-caption">Udacity Certification</div>
+                    </div>
+                    <!-- Add more gallery items as needed -->
+                </div>
+     </section>
+
+  
+    
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title"><span class="underline-anim">Contact Me</span></h2>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <h3>Let's Connect</h3>
+                        <p>Feel free to reach out for collaborations or just to say hello!</p>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <i class="fas fa-envelope contact-icon"></i>
+                                <span>milkeso.mohammed@example.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone contact-icon"></i>
+                                <a href="tel:0954710621">0954710621</a>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt contact-icon"></i>
+                                <span>Arsi University, Ethiopia</span>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form" id="contactForm">
+                        <input type="text" placeholder="Your Name" required class="form-input">
+                        <input type="email" placeholder="Your Email" required class="form-input">
+                        <textarea placeholder="Your Message" rows="5" required class="form-input"></textarea>
+                        <button type="submit" class="btn submit-btn">Send Message <i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="social-links">
+                <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p class="copyright">&copy; <span id="currentYear"></span> Milkeso Mohammed. All rights reserved.</p>
+            <p class="copyright">by milkeso mohammed</p>
+        </div>
+    </footer>
+
+    <!-- Link to Particle.js library and config -->
+ 
+    <!-- Link to External JavaScript -->
+    
+</body>
+</html>
